@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Courses.css"
-import { CourseData } from '../../context/CourseContext.jsx'
+import { CourseData } from '../../Context/CourseContext.jsx'
 import CourseCard from '../../Components/CourseCard/CourseCard';
 
 
