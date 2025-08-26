@@ -6,7 +6,7 @@ import "ace-builds/src-noconflict/mode-css";
 import "ace-builds/src-noconflict/mode-javascript";
 import "ace-builds/src-noconflict/theme-github";
 
-import "./plaground.css";
+import "./Plaground.css";
 
 const Playground = () => {
   const [html, setHtml] = useState("");
