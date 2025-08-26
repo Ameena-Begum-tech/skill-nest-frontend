@@ -1,5 +1,5 @@
 import React from "react";
-import "./paymentsuccess.css";
+import "./PaymentSuccess.css";
 import { Link, useParams } from "react-router-dom";
 import { FaCheckCircle } from "react-icons/fa";
 
