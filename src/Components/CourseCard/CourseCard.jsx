@@ -5,7 +5,7 @@ import { userData } from '../../Context/UserContext.jsx'
 import { useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import axios from 'axios'
-import { CourseData } from '../../context/CourseContext.jsx'
+import { CourseData } from '../../Context/CourseContext.jsx'
 
 
 const CourseCard = ({course}) => {
