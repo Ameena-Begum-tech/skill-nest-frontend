@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './register.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { userData } from '../../Context/UserContext.jsx';
-import { CourseData } from '../../context/CourseContext.jsx';
+import { CourseData } from '../../Context/CourseContext.jsx';
 
 const Login = () => {
   const navigate = useNavigate();
