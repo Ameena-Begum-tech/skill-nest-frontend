@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./CourseDescription.css";
 import { useNavigate, useParams } from "react-router-dom";
-import { CourseData } from "../../context/CourseContext";
+import { CourseData } from "../../Context/CourseContext";
 import { server } from "../../main";
 import axios from "axios";
 import toast from "react-hot-toast";
