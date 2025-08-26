@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Layout from '../utils/Layout'
 import { useNavigate } from 'react-router-dom'
-import { CourseData } from '../../context/CourseContext';
+import { CourseData } from '../../Context/CourseContext';
 import CourseCard from '../../Components/CourseCard/CourseCard';
 import { FaCamera } from 'react-icons/fa';
 import toast from 'react-hot-toast';
