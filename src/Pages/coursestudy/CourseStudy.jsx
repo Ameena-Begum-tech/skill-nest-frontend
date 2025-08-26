@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "./CourseStudy.css";
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { CourseData } from '../../context/CourseContext';
+import { CourseData } from '../../Context/CourseContext';
 import { server } from '../../main';
 
 const CourseStudy = ({ user }) => {
