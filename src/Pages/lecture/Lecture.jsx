@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "./lecture.css";
+import "./Lecture.css";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import { server } from "../../main";
-import Loading from "../../components/loading/Loading";
+import Loading from "../../Components/Loading/Loading";
 import toast from "react-hot-toast";
 import { GoVerified } from "react-icons/go";
 
