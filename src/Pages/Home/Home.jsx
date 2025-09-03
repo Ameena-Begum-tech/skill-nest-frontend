@@ -74,9 +74,6 @@ const Home = ({user}) => {
                 <button onClick={() => navigate("/account")} className="sub-item">
                   <FaUser size={16} /> Profile
                 </button>
-                <button className="sub-item logout" onClick={() => navigate("/login")}>
-                  <LuLogOut size={16} /> Logout
-                </button>
               </div>
             )}
           </div>
