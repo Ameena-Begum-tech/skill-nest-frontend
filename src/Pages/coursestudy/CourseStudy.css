@@ -43,7 +43,7 @@
 /* Headings & Text */
 .course-content1 h2 {
   font-size: 28px;
-  color: #139e8e;
+  color: #003566;
   margin-bottom: 15px;
   text-align: left;
 }
@@ -65,7 +65,7 @@
 .lecture-btn1 {
   display: inline-block;
   text-decoration: none;
-  background-color: #139e8e;
+  background-color: #003566;
   color: #fff;
   padding: 12px 25px;
   border-radius: 10px;
@@ -75,7 +75,7 @@
 }
 
 .lecture-btn1:hover {
-  background-color: #0e7a6b;
+  background-color: #003566;
   transform: scale(1.05);
 }
 
