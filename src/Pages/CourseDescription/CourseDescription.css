@@ -61,11 +61,11 @@
   font-size: 18px;
   font-weight: 600;
   margin: 25px 0;
-  color: #139e8e;
+  color: #003566;
 }
 
 .common-btn {
-  background-color: #139e8e;
+  background-color: #003566;
   color: #fff;
   padding: 12px 28px;
   font-size: 16px;
@@ -78,7 +78,7 @@
 }
 
 .common-btn:hover {
-  background-color: #10897b;
+  background-color: #003566;
   transform: translateY(-2px);
 }
 
