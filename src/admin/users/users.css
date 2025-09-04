@@ -1,6 +1,6 @@
 .users-container {
   padding: 30px;
-  background: #f9fafc;
+  background: #003566;
   min-height: 100vh;
 }
 
@@ -8,7 +8,7 @@
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #2d3748;
+  color: #003566;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .users-table th {
-  background: #139e8e;
+  background: #003566;
   color: white;
   font-size: 16px;
 }
@@ -55,7 +55,7 @@
 }
 
 .role-badge.admin {
-  background: #139e8e;
+  background: #003566;
   color: white;
 }
 
