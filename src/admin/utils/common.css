@@ -19,7 +19,7 @@
       cursor: pointer;
       padding: 12px;
       span{
-        color: #003566;
+        color: white;
       }
 
       @media (max-width: 768px) {
@@ -34,7 +34,7 @@
       a {
         display: flex;
         text-decoration: none;
-        color:#003566;
+        color:white;
        
 
         span {
