@@ -17,7 +17,7 @@ body{
   transition: background-color 0.3s;
 
   &:hover{
-    background-color: #003566;
+    background-color: #747bff;
   }
   @media (max-width:768px){
     font-size: 16px;
