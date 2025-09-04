@@ -2,62 +2,69 @@
   display: flex;
   min-height: 100vh;
   background: #f5f7fa;
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   flex-wrap: wrap;
 }
-
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  background: white;
+}
+/* Sidebar */
 .sidebar {
-  width: 240px;
-  background: #fff;
+  width: 250px;
+  background: #003566;
   padding: 20px;
-  border-right: 1px solid #ddd;
   display: flex;
   flex-direction: column;
   height: 100vh;
   position: sticky;
   top: 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  color: #139e8e;
-  margin-bottom: 30px;
+  color: #ffffff;
+  margin-bottom: 25px;
 }
 
 .nav-links {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  background: none;
+  gap: 12px;
+  background: transparent;
   border: none;
   font-size: 1rem;
-  color: #444;
+  color: #f0f0f0;
   cursor: pointer;
-  padding: 8px;
-  border-radius: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
   text-align: left;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .nav-item:hover {
-  background: #e6f7f5;
-  color: #139e8e;
+  background: rgba(255, 255, 255, 0.1);
+ color: #5a4fcf;
 }
 
+/* Account Dropdown */
 .account-options {
   margin-left: 20px;
   display: flex;
-  align-self: flex-end;
   flex-direction: column;
-  gap: 8px;
-  margin-top: auto;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .sub-item {
@@ -68,17 +75,26 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: #555;
-}
-
-.sub-item.logout {
-  color: red;
+  color: #e0e0e0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
 }
 
 .sub-item:hover {
-  color: #139e8e;
+  background: rgba(255, 255, 255, 0.1);
+ color: #5a4fcf;
 }
 
+.sub-item.logout {
+  color: #ff4d4f;
+}
+
+.sub-item.logout:hover {
+  color: #ff7875;
+}
+
+/* Main content */
 .main-content {
   display: flex;
   flex: 1;
@@ -87,18 +103,19 @@
   flex-wrap: wrap;
 }
 
+/* Updates section */
 .updates {
   flex: 1 1 35%;
-  background: #fff;
-  border-radius: 12px;
+  background: #ffffff;
+  border-radius: 14px;
   padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .updates h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 15px;
-  color: rgb(201, 3, 3);
+  color: #5a4fcf;
 }
 
 .updates ul {
@@ -108,72 +125,74 @@
 }
 
 .updates li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 0.95rem;
-  color: #333;
+  color: #444;
 }
 
+/* Workshops */
 .workshops {
   flex: 1 1 60%;
-  background: #fff;
-  border-radius: 12px;
+  background: #ffffff;
+  border-radius: 14px;
   padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .workshops h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 15px;
-  color: rgb(201, 3, 3);
+  color: #5a4fcf;
 }
 
 .workshop-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
 }
 
 .workshop-card {
   background: #f9fafb;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 15px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
 }
 
 .workshop-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .workshop-card h3 {
   font-size: 1.1rem;
   margin-bottom: 8px;
-  color: #111;
+  color: #222;
 }
 
 .workshop-card p {
   font-size: 0.9rem;
-  color: #555;
+  color: #666;
 }
 
 .enroll-btn {
-  margin-top: 10px;
-  background: #139e8e;
+  margin-top: 12px;
+  background: linear-gradient(135deg, #5a4fcf, #8a4fff);
   color: white;
   border: none;
-  padding: 6px 12px;
+  padding: 7px 14px;
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .enroll-btn:hover {
-  background: #14B8A6;
+  background: linear-gradient(135deg, #6a5af9, #9a5fff);
+  transform: scale(1.05);
 }
 
-/* Tablet and small laptop fix */
+/* Tablet */
 @media (max-width: 1030px) {
   .homepage-container {
     flex-direction: column;
@@ -190,26 +209,8 @@
     gap: 10px;
   }
 
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
-
   .nav-item {
     width: 100%;
-    text-align: left;
-    word-wrap: break-word;
-    white-space: normal;
-  }
-
-  .account-options {
-    margin-left: 0;
-    margin-top: 10px;
-    flex-direction: row;
-    gap: 15px;
-    align-self: flex-start;
-    flex-wrap: wrap;
   }
 
   .main-content {
@@ -218,25 +219,10 @@
   }
 }
 
-/* Mobile phones */
+/* Mobile */
 @media (max-width: 768px) {
   .updates,
   .workshops {
     flex: 1 1 100%;
-  }
-
-  .sidebar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .account-options {
-    align-self: flex-start;
-    margin-top: 10px;
   }
 }
