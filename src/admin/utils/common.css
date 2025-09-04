@@ -14,12 +14,12 @@
     padding: 0;
 
     li {
-      color: #139e8e;
+      color: white;
       margin-bottom: 10px;
       cursor: pointer;
       padding: 12px;
       span{
-        color: #139e8e;
+        color: #003566;
       }
 
       @media (max-width: 768px) {
@@ -27,14 +27,14 @@
       }
 
       &:hover {
-        background-color: #e6f7f5;
+        background-color:#747bff;;
         border-radius: 5px;
       }
 
       a {
         display: flex;
         text-decoration: none;
-        color:#139e8e;
+        color:#003566;
        
 
         span {
