@@ -94,7 +94,7 @@
 .submit-course-btn {
   margin-top: 20px;
   padding: 12px 0;
-  background: linear-gradient(90deg, #139e8e, #0f7a6b);
+  background: linear-gradient(90deg,  #747bff, #003566);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -108,7 +108,7 @@
 }
 
 .submit-course-btn:disabled {
-  background-color: #88c0b9;
+  background-color: #003566;
   cursor: not-allowed;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .admin-right::-webkit-scrollbar-thumb {
-  background: #139e8e;
+  background: #003566;
   border-radius: 3px;
 }
 
