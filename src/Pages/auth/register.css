@@ -24,7 +24,7 @@
 .register-title {
   text-align: center;
   margin-bottom: 25px;
-  color: #139e8e;
+  color:#003566;
   font-size: 28px;
 }
 
@@ -46,14 +46,14 @@
 }
 
 .register-input:focus {
-  border-color: #139e8e;
+  border-color: #003566;
   box-shadow: 0 0 5px rgba(19, 158, 142, 0.4);
 }
 
 .register-button {
   width: 100%;
   padding: 12px;
-  background-color: #139e8e;
+  background-color:#003566;
   border: none;
   border-radius: 8px;
   color: white;
@@ -63,7 +63,7 @@
 }
 
 .register-button:hover {
-  background-color: #0f807a;
+  background-color: #003566;
   transform: translateY(-2px);
 }
 
@@ -74,14 +74,14 @@
 }
 
 .register-link {
-  color: #139e8e;
+  color:#003566;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .register-link:hover {
-  color: #0f807a;
+  color: #003566;
   text-decoration: underline;
 }
 .register-form{
