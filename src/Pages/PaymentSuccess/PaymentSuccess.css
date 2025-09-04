@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   min-height: 75vh;
-  background: linear-gradient(135deg, #e0f7f3, #139e8e); 
+  background: linear-gradient(135deg, #e0f7f3, #003566); 
   padding: 20px;
   box-sizing: border-box;
 }
@@ -20,14 +20,14 @@
 }
 
 .success-icon {
-  color: #139e8e;
+  color: #003566;
   font-size: 50px;
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: 26px;
-  color: #139e8e;
+  color: #003566;
   margin-bottom: 15px;
   font-weight: 700;
 }
@@ -40,13 +40,13 @@ p {
 
 .reference span {
   font-weight: 600;
-  color: #139e8e;
+  color: #003566;
 }
 
 .common-btn {
   display: inline-block;
   padding: 12px 25px;
-  background: linear-gradient(135deg, #139e8e, #0f7b6b);
+  background: linear-gradient(135deg,#0e5698, #003566);
   color: #fff;
   font-weight: 600;
   border-radius: 8px;
