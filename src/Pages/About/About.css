@@ -1,6 +1,6 @@
 .about {
   padding: 80px 0;
-  background: #f8fdfc;
+  background: #003566;
   text-align: center;
   min-height: 70vh;
   animation: fadeIn 1.5s ease-in-out;
@@ -76,7 +76,7 @@
 
 .about-footer h4 {
   font-size: 22px;
-  color: #139e8e;
+  color: #003566;
   margin-bottom: 15px;
 }
 
